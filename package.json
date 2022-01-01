@@ -4,7 +4,7 @@
   "description": "\"Using This App you can purchase Books\"",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon run src/app.js"
+    "dev": "node src/app.js"
   },
   "author": "Mr Nishant Sharma",
   "license": "ISC",
@@ -15,8 +15,5 @@
     "express-handlebars": "^6.0.2",
     "hbs": "^4.2.0",
     "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
