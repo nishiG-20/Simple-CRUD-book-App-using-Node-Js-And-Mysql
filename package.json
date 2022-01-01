@@ -4,7 +4,8 @@
   "description": "\"Using This App you can purchase Books\"",
   "main": "app.js",
   "scripts": {
-    "dev": "node src/app.js"
+    "dev": "node src/app.js",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Mr Nishant Sharma",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "express-handlebars": "^6.0.2",
     "hbs": "^4.2.0",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
